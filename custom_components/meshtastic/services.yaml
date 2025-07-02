@@ -30,6 +30,12 @@ send_text:
       required: true
       selector:
         boolean: {}
+    reply_id:
+      required: false
+      selector:
+        text:
+          multiline: false
+          placeholder: "Optional reply ID to use for this message"
 
 
 send_direct_message:
