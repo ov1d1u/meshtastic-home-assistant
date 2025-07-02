@@ -16,7 +16,7 @@
     }
   ],
   "codeowners": [
-    "@broglep"
+    "@ov1d1u"
   ],
   "config_flow": true,
   "documentation": "https://github.com/meshtastic/home-assistant",
@@ -349,7 +349,7 @@
       "pid": "802A"
     }
   ],
-  "version": "0.6.1",
+  "version": "0.6.2",
   "zeroconf": [
     "_meshtastic._tcp.local.",
     "_http._tcp.local."
