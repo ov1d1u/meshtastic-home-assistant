@@ -75,6 +75,12 @@ broadcast_channel_message:
       default: true
       selector:
         boolean: {}
+    reply_id:
+      required: false
+      selector:
+        text:
+          multiline: false
+          placeholder: "Optional reply ID to use for this message"
 
 
 request_telemetry:
